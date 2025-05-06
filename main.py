@@ -22,7 +22,7 @@ while guessed_number!=random_number:
         guessed_number = int(guessed_number_str)
 
         if guessed_number < 1 or guessed_number > 20:
-            print("Invalid number. Please enter a number in the 1 to 20 range.")
+            print("Invalid number. Number is outside the specified range")
         elif guessed_number < random_number:
             print("The entered number is too low!")
         elif guessed_number > random_number:
